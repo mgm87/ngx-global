@@ -1,6 +1,6 @@
 {
   "name": "ngx-global",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "description": "This project is intended to provide the global JS objects as injectables for Angular. The objects currently available are: window, console, and localStorage. Document is provided by Angular.",  
   "author": {
@@ -10,6 +10,7 @@
   "keywords": [
     "Angular"
   ],
+  "main": "dist/public_api.d.ts",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
