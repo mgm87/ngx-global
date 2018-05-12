@@ -1,4 +1,4 @@
-# ngx-globals
+# ngx-global
 This project is intended to provide the global JS objects as injectables for Angular. The objects currently available are: window, console, and localStorage. Document is provided by Angular.
 
 Mocking these objects simplifys testing and follows the Angular way to do things.
