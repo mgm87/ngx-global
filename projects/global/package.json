@@ -1,0 +1,17 @@
+{
+  "name": "ngx-global",
+  "version": "0.0.5",
+  "license": "MIT",
+  "description": "This project is intended to provide the global JS objects as injectables for Angular. The objects currently available are: window, console, and localStorage. Document is provided by Angular.",  
+  "author": {
+    "name": "Michael Madsen",
+    "url": "https://github.com/mgm87/ngx-global"
+  },
+  "keywords": [
+    "Angular"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^4.0.0 || ^5.0.0 || ^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^4.0.0 || ^5.0.0 || ^6.0.0-rc.0 || ^6.0.0"
+  }
+}
